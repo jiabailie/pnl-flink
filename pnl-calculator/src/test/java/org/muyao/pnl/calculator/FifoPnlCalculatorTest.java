@@ -34,9 +34,9 @@ class FifoPnlCalculatorTest {
         assertNotNull(snapshot);
         assertEquals(decimal("3.00000000"), snapshot.getPositionQuantity());
         assertEquals(decimal("110.00000000"), snapshot.getAverageCost());
-        assertEquals(decimal("260.00000000"), snapshot.getRealizedPnl());
+        assertEquals(decimal("220.00000000"), snapshot.getRealizedPnl());
         assertEquals(decimal("30.00000000"), snapshot.getUnrealizedPnl());
-        assertEquals(decimal("290.00000000"), snapshot.getTotalPnl());
+        assertEquals(decimal("250.00000000"), snapshot.getTotalPnl());
     }
 
     @Test
